@@ -1,0 +1,149 @@
+.jumbotron{
+    background-color:lightseagreen;
+    color:white;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.navbar{
+    display: block;
+}
+
+.input-field{
+	margin-left: 1em;
+	color: red;
+	max-width: 285px;
+	border-radius: 20px;
+}
+.modal-body{
+	background-color: #dddddd;
+	text-align: center;
+}
+.modal-header{
+	color: gray;
+	text-align: center;
+}
+.modal-footer{
+	text-align: center;
+}
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  h3{
+      color:lightgreen;
+      opacity: 0.7;
+  }
+#Ajax{
+width: 100%;
+}
+p{
+	color:white;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: white;
+}
+td{
+	border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: lightblue;
+}
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 0.3em;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 0.9;
+  max-width: 350px;
+  max-height: 40px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.btnLogin{
+	margin-top: 7px;
+	margin-left: 7px;
+}
+.btnsDB{
+	text-align: center;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+.carousel{
+	padding: 25px;
+}
+
+ 

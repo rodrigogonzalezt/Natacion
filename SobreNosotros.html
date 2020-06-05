@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Nataci&oacute;n</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/script.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+		<!--	#######		NAVBAR		#######		-->
+
+	<nav class="navbar navbar-inverse ">
+		<div class="container-fluid ">
+			<div class="navbar-header ">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="Main.html">Swimming Power</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+				<li><a href="Main.html">Home</a></li>
+				<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">La Natación<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href=""La Natación</a></li>
+				<li><a href="">Beneficios</a></li>
+				<li class="active"><a href="SobreNosotros.html">Sobre nosotros</a></li>
+				</ul>
+				</li>
+				<li><a href="">Sobre la Entrendora</a></li>
+				<li><a href="AudioVisual.html">AudioVisual</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<li><a href="BaseDeDatos.html">Postular<span class="glyphicon glyphicon-user"></span></a></li>
+				<li><button type="button" class="btn btn-info btnLogin" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Login</button></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--	#######		NAVBAR END		#######		-->
+
+	<!--	#######		LOGIN PANEL		#######		-->
+	
+	<div id="loginModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-sm">
+
+		<!-- Login Form-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
+		  </div>
+		  <div class="modal-body">
+			<form action="/action_page.php">
+		  <h2></h2>
+		  <div class="input-container">
+			<i class="fa fa-user icon"></i>
+			<input class="input-field" type="text" placeholder="Username" name="usrnm">
+		  </div>
+		  <div class="input-container">
+			<i class="fa fa-envelope icon"></i>
+			<input class="input-field" type="text" placeholder="Email" name="email">
+		  </div>
+		  <div class="input-container">
+			<i class="fa fa-key icon"></i>
+			<input class="input-field" type="password" placeholder="Password" name="psw">
+		  </div>
+		  <button type="submit" class="btn btn-info">Entrar</button>		  
+		</form>
+		<a href="Recuperar-Clave.html">
+		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Olvid&oacute; su Contrase&ntilde;a?</button></a>
+		</div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<!--	#######		LOGIN PANEL END		#######		-->
+	
+<div class="container-fluid text-center">    
+  <div class="row content">
+
+    <div class="col-sm-8 text-left"> 
+      <h1>Nosotros</h1>
+      <p>Uno de los ejercicios más completos para trabajar tu mente y cuerpo es la natación; te mantiene en forma, fortalece tus músculos y tu memoria, por lo que es recomendable que se practique a cualquier edad.
+		1. Tu calidad de vida mejora. La natación te permite retrasar la etapa del envejecimiento; tu capacidad motriz aumenta, al igual que tu memoria, ya que se requiere mayor concentración y coordinación.
+		2. Hace que estés más alerta, con más equilibrio y que tengas un tiempo de reacción complejo más eficiente y rápido; las heridas tardan menos en sanar.
+		3. Quemas mayor número de calorías. En el agua tus músculos trabajan de cinco a seis veces más que en tierra firme.
+		La natación aumenta tu masa muscular y la tonifica; alarga tus músculos y mejora tu silueta. Una hora de este ejercicio te permite quemar hasta 600 calorías.
+		Más bondades de la natación
+		5. Tu cuerpo se hace más resistente, ya que la natación aumenta el grosor de tus huesos.
+ 		6. Tu organismo adquiere mayor movilidad y elasticidad. La natación permite ejercitar las articulaciones, aumenta su flexibilidad y el rango de movimiento.
+		7. Favorece la actividad del sistema cardiorrespiratorio.
+		8. Aumenta la flexibilidad de la columna y elimina los dolores.
+		9. Mejora tu circulación. Cuando nadas, le das un masaje a cada órgano de tu cuerpo, la sangre se activa y te sientes mejor.
+		10. El nadar relajas no sólo los músculos del cuerpo, sino también tu mente, por lo que tu estrés disminuye considerablemente.</p>
+      <h3>Test</h3>
+      <p>Lorem ipsum...</p>
+
+  </div>
+</div>
+</body>
+</html>

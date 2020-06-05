@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Nataci&oacute;n</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/script.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	
+	<!--	#######		NAVBAR		#######		-->
+
+	<nav class="navbar navbar-inverse ">
+		<div class="container-fluid ">
+			<div class="navbar-header ">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="Main.html">Swimming Power</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+				<li class="active"><a href="Main.html">Home</a></li>
+				<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">La Natación<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href=""La Natación</a></li>
+				<li><a href="">Beneficios</a></li>
+				<li><a href="SobreNosotros.html">Sobre nosotros</a></li>
+				</ul>
+				</li>
+				<li><a href="">Sobre la Entrendora</a></li>
+				<li><a href="AudioVisual.html">AudioVisual</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<li><a href="BaseDeDatos.html">Postular<span class="glyphicon glyphicon-user"></span></a></li>
+				<li><button type="button" class="btn btn-info btnLogin" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Login</button></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--	#######		NAVBAR END		#######		-->
+
+	<!--	#######		LOGIN PANEL		#######		-->
+	
+	<div id="loginModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-sm">
+
+		<!-- Login Form-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
+		  </div>
+		  <div class="modal-body">
+			<form action="/action_page.php">
+		  <h2></h2>
+		  <div class="input-container">
+			<i class="fa fa-user icon"></i>
+			<input class="input-field" type="text" placeholder="Username" name="usrnm">
+		  </div>
+		  <div class="input-container">
+			<i class="fa fa-envelope icon"></i>
+			<input class="input-field" type="text" placeholder="Email" name="email">
+		  </div>
+		  <div class="input-container">
+			<i class="fa fa-key icon"></i>
+			<input class="input-field" type="password" placeholder="Password" name="psw">
+		  </div>
+		  <button type="submit" class="btn btn-info">Entrar</button>		  
+		</form>
+		
+		</div>
+		  <div class="modal-footer">
+			<a href="Recuperar-Clave.html"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Olvid&oacute; su Contrase&ntilde;a?</button></a>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<!--	#######		LOGIN PANEL END		#######		-->
+
+	<div class="jumbotron text-center">
+		<h1>Curso de Natación</h1>
+		<p>prototipo de pagina web final</p>
+	  </div>
+	  
+	  <div class="container ">
+		<div class="row  text-center">
+			<div class="animated zoomIn delay-1.2s">
+			  <div class="col-md-4 ">
+				<h3 >Avances Garantizados</h3>
+				<p><img src="assets/img/home/landing_1.png"></p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia provident est repellat magni officia animi non doloribus, at corrupti, pariatur in possimus? Natus temporibus nam odit omnis laborum? Rerum, odio.</p>
+			  </div>
+			</div>
+			<div class="animated bounceInUp delay-2.3s">
+				<div class="col-md-4">
+					<h3>Profesionalismo</h3>
+					<p><img src="assets/img/home/landing_2.png"></p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga a nulla inventore sed. Maiores repellendus vitae est nihil a eius quibusdam dolor voluptas exercitationem, sapiente atque, ipsum quasi at quidem?</p>
+				</div>
+			</div>			
+			<div class="animated zoomIn delay-1.6s">
+				<div class="col-md-4">
+					<h3>Cuida tu Salud</h3>
+					<p><img src="assets/img/home/landing_3.png"></p>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, perferendis vel! Maxime voluptas, quae quidem quo commodi corporis sint cumque voluptatem sunt unde accusantium animi porro quas eos placeat autem.</p>
+				</div>
+			</div>
+		</div>
+	  <footer class="text-center text-danger">  
+		  <hr>
+		<a href="http://www.facebook.com" class="fa fa-facebook"></a>
+		<a href="http://www.twitter.com" class="fa fa-twitter"></a>
+		<a href="http://www.instagram.com" class="fa fa-instagram"></a>
+		<a href="http://www.youtube.com" class="fa fa-youtube"></a>
+
+	  </footer>
+</body>
+</html>
